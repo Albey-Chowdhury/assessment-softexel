@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+body{
+    overflow: hidden;
+    background: var(--bg-color);
+}
+
+
+:root{
+    --Primary-color:#50B498;
+    --Secondary-color:#468585;
+    --bg-color:#DEF9C4;
+    --text-color:#9CDBA6;
+    --black-color:#000;
+    --white-color:#fff;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+    height: 100px;
+    width: 100px;
+}
+
+.shop-name{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.shop-title{
+    color: var(--Primary-color);
+    text-align: center;
+}
+
+.login-card-body{
+  background: var(--Secondary-color);
+}
+
+.card-title, .card-login{
+  font-weight: bold;
+  color: var(--Secondary-color);
+}
+
+header{
+  height: 60px;
+  width: 100%;
+  background-color: var(--text-color);
+}
+
+header .des{
+  padding:20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--Primary-color);
+}
+
+header .type{
+  padding: 15px;
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--Secondary-color);
+}
+
+header img{
+  height: 80px;
+  width: 80px;
+}
+
+.desbord-card{
+
+  background-color: transparent !important;
+  border: 2px solid var(--Secondary-color);
+}
+
+.btn-desbord{
+  color: var(--bg-color);
+  background-color: var(--Secondary-color);
+}
+
+.btn-desbord:hover{
+  font-weight: bold;
+  color: var(--bg-color);
+  background-color: var(--Primary-color);
+}
